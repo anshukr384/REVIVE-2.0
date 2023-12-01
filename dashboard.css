@@ -1,0 +1,59 @@
+h1{
+    font-family: Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif;
+    color: #ddbf84;
+    font-style: bold;
+    
+}
+img{
+    border: 5px solid rgb(185, 173, 173);
+}
+p,li{
+    color: bisque;
+    font-size: large;
+}
+h3{
+    color: rgb(224, 220, 220);
+    text-align: left;
+}
+h4{
+    color: antiquewhite;
+}
+.flex-container>div{
+    color: #ddbf84;
+    font-weight: bold;
+}
+#myVideo {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+  }
+.banner video{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+}
+@media(min-aspect-ratio: 16/9) {
+    .banner video{
+        height: auto;
+        width: 100%;
+    }
+    
+}
+.flex-container{
+    display: flex;
+    justify-content: space-evenly;
+}
+.flex-container2{
+    display: flex;
+    justify-content: space-evenly;
+}
+.chart{
+    align-items: center;
+}
+.flex-container3{
+    display: flex;
+    justify-content: space-evenly;
+}
